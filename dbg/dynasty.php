@@ -16,7 +16,15 @@ for($it->first(); !$it->isDone(); $it->next()) {
     echo "<br> ";
     print $row_it->getColumnValue("id");
     echo " |";
+    print $row_it->getColumnValue("birth_date");
+    echo " |";
+    print $row_it->getColumnValue("death_date");
+    echo " |";
     print $row_it->getColumnValue("name");
+    echo " |";
+    print $row_it->getColumnValue("father_name");
+    echo " |";
+    print $row_it->getColumnValue("family_name");
 }
 
 
